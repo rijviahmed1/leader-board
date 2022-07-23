@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    
+}
+
+main{
+    width: 900px;
+    margin: 20px auto;
+    /* padding: auto 50px; */
+    background-color: #fff;
+    /* background-color: aquamarine; */
+    /* justify-content: center;  */
+    /* display: flex; */
+}
+h2{
+    padding-left: 95px;
+}
+.first-container{
+    /* margin-bottom: 50px;
+    margin-top: 10px; 
+    padding-bottom: 30px; */
+    /* background-color: #fff; */
+    /* width: 870px; */
+    
+    justify-content: center;
+   
+}
+.person{
+    padding-left: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    /* background-color: #fff; */
+    
+}
+.player{
+    display: flex;
+}
+.player img{
+    
+    width: 56px;
+    height: 56px;
+    align-items: center;
+}
+.player h3{
+    align-items: center;
+    margin-left: 20px;
+}
+hr{
+    width: 80%;
+    background-color: slategrey;
+    margin-top: 20px;
+    
+}
+
+
+/* ............................................................. */
+
+
+.second-container{
+    margin-bottom: 50px;
+    margin-top: 10px; 
+    padding-bottom: 30px;
+    /* background-color: #fff; */
+    /* width: 870px;     */
+    justify-content: center; 
+}
+
+.main-blog{
+    padding:0 95px;
+    width: 100%;  
+}
+.blog{
+    /* padding-right: 95px; */
+    width: 50%;
+    /* padding: 10px 2; */
+    /* margin: 10px 10px; */
+   display: flex;
+     float: left;
+    /* grid-template-columns: 1fr, 1fr; */
+}
+.blog-odd{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 95px; */
+}
+.blog-even{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-right: 95px; */
+}
+.blog-img{
+    width: 50%
+}
+.blog-img img{
+    
+    width: 150px;
+    height: 120px;
+}
+.blog-content{
+    margin-left: 10px;
+    /* display: flex; */
+    width: 50%;
+    height: 120px;
+}
+
+/* ............................................................. */
+
+
+
+/* .third-container{
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+} */
+
+.third-container{
+        /* margin-left: ;
+        margin-bottom: 50px; */
+        margin-top: 10px; 
+        
+        /* background-color: #fff; */
+        /* width: 870px; */
+        
+        justify-content: center;
+        
+    /* position: relative; */
+    }
+    .main-course{
+        display: flex;
+        float: left;
+        padding:0 95px;
+    }
+.third-container .course img{
+    width: 200px;
+}
+
+.course{
+    
+    /* display: flex; */
+    width: 250px;
+    /* position: absolute; */
+}
